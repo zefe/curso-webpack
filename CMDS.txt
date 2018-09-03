@@ -1,0 +1,17 @@
+Basic Setup
+
+
+mkdir webpack-demo && cd webpack-demo
+
+npm init -y
+
+npm install webpack webpack-cli --save-dev
+
+crear index.js
+
+agregar script a package.json :  "build": "webpack index.js --output bundle.js --mode development"
+
+npm run buil  yno genera nuestr primer bundle
+
+npm install webpack-dev-server --save-dev
+PARA ACTUALIZAR NAVEGADOR Y VER CAMBIOS
